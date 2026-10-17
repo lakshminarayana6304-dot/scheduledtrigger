@@ -1,0 +1,15 @@
+{
+	"name": "lakshmiadfv217261",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "912a0f1c-e3a4-4da4-8c69-3dfc8d5c9783",
+		"tenantId": "c7634c4e-a50b-47e2-9b88-56c563a7e653"
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"name": "scheduledtrigger2",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 1,
+				"startTime": "2026-10-17T11:30:00",
+				"timeZone": "India Standard Time",
+				"schedule": {
+					"minutes": [
+						33
+					],
+					"hours": [
+						11
+					],
+					"monthDays": [
+						-1
+					]
+				}
+			}
+		}
+	}
+}
